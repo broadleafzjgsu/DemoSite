@@ -64,7 +64,7 @@ public class RegisterController extends BroadleafRegisterController {
             
             
             // Update our customer object
-            newCustomer.getCustomerAttributes().add(referralCodeAttr);
+            //newCustomer.getCustomerAttributes().add(referralCodeAttr);
             newCustomer = customerService.saveCustomer(newCustomer);
             
             // Place the new customer onto the request
